@@ -1,4 +1,4 @@
-##Getting and Cleaning Data Project
+## Getting and Cleaning Data Project
 
 ### Processing Step
 	1. Download the folder "GettingCleaningData" from the Git repository https://github.com/weiting1989/GettingCleaningData/tree/master/GettingCleaningData

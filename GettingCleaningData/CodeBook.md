@@ -1,12 +1,12 @@
-##CodeBook
+## CodeBook
 
 This code book describes the variables and data used in this project, and the processing required to create tidy data.
 
-###OverView
+### OverView
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years.
 Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist.Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz.The experiments have been video-recorded to label the data manually.The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
-###Explanation of each file
+### Explanation of each file
 
 -features.txt : Names of the 561 features
 -activity_labels.txt : Names and activity Id of all 6 activities 
@@ -19,7 +19,7 @@ Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTA
 
 The more information is available in features_info.txt file.
 
-##Processing Steps
+### Processing Steps
 1. Load all of the above files and combine into a single data with appropriate column header.
 2. Extracts only the measurements on the mean and standard deviation for each measurement.
 3. Join the data with the activity descriptive names and ID.
